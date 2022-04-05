@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 /*holasddcfw*/
 
+/*233*/
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
